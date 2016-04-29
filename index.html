@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Wikipedia Viewer</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <h1 class="text-center">Wikipedia Viewer</h1>
+<div id="mainScreen" class="container">
+  <div class="row">
+    <div class="col-lg-4 col-lg-offset-4">
+      <div class="input-group">
+        <input type="text" id="search" class="form-control" placeholder="Search for...">
+        <span class="input-group-btn">
+        <button class="btn btn-primary" type="button" onclick="getWikiResults()">Go!</button>
+      </span>
+      </div>
+      <!-- /input-group -->
+    </div>
+    <!-- /.col-lg-6 -->
+  </div>
+  <!-- /.row -->
+  <div class="row">
+    <button class="btn btn-primary center-block" onclick="getRandomWiki()">Feeling random</button>
+  </div>
+</div>
+<div class="results">
+
+</div>
+<div class="footer text-center"> by <a href="http://github.com/Maslor">Maslor</a></div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
